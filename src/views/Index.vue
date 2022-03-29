@@ -1,18 +1,22 @@
 <template>
   <div class="home">
+      <Index/>
+      <Footer/>
   </div>
 </template>
 
 <script>
 
 // @ is an alias to /src
-import NavBar from "../components/NavBar.vue";
+import Index from "../components/Index.vue";
+import Footer from "../components/Footer.vue";
 
 export default {
 
-  name: 'HomeView',
+  name: 'inicio',
   components:{
-    NavBar,
+    Index,
+    Footer,
     }
 
 }
@@ -20,6 +24,6 @@ export default {
 </script>
 
 <!-- Add "scoped" attribute to limit CSS to this component only -->
-<style src="../assets/css/style.css">
+<style >
 
 </style>
